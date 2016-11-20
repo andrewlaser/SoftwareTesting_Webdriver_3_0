@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="Infrastructure.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleLogin.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
