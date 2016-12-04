@@ -15,8 +15,8 @@ namespace Homework4
     {
         private IWebDriver _driver;
         private WebDriverWait _wait;
-        private const string _hostName = "http://192.168.1.151";
-        //private const string _hostName = "http://localhost";
+        //private const string _hostName = "http://192.168.1.151";
+        private const string _hostName = "http://localhost";
 
         [SetUp]
         public void Start()
