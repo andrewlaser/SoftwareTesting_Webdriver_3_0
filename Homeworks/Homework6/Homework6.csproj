@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{ADD2F9EE-F852-4F6E-BF88-FE337C03BEEC}</ProjectGuid>
+    <ProjectGuid>{1F0D53E0-2AE4-404C-8142-659565688834}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Homework3</RootNamespace>
-    <AssemblyName>Homework3</AssemblyName>
+    <RootNamespace>Homework6</RootNamespace>
+    <AssemblyName>Homework6</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -53,10 +53,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="StartIEdge.cs" />
-    <Compile Include="StartIE11.cs" />
-    <Compile Include="StartFirefox2.cs" />
-    <Compile Include="StartFirefox1.cs" />
+    <Compile Include="Task12.cs" />
+    <Compile Include="Task11.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
