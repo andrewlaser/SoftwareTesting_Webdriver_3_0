@@ -48,9 +48,9 @@ namespace Homework6
             _driver.FindElement(By.XPath("//a[contains(text(),'Add New Product')]")).Click();
 
             //Fill in Add New Product form
-            _driver.FindElement(By.XPath("//input[@name='status' and @isChecked='1']")).Click();
+            _driver.FindElement(By.XPath("//input[@name='status' and @value='1']")).Click();
             _driver.FindElement(By.XPath("//input[contains(@name, 'name[')]")).SendKeys(timestampStr);
-            SelectCategories(new List<string>() {"selectCategory"});
+            SelectCategories(new List<string>() {selectCategoryStr});
             SelectElement defaultCategoryElement = new SelectElement(_driver.FindElement(By.Name("default_category_id")));
             defaultCategoryElement.SelectByText(selectCategoryStr);
             //TODO finish
